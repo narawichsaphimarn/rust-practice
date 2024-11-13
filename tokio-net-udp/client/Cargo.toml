@@ -1,0 +1,10 @@
+[package]
+name = "tokio-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.41.0", features = ["full"] }
+winapi = { version = "0.3.9", features = ["winuser", "windef", "minwindef"] }
+serde_json = "1.0.132"
+serde = { version = "1.0.214", features = ["derive"] }
